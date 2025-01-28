@@ -474,7 +474,7 @@ Route::group([
             ]);
             Route::delete('/{beacon_id}', [
                 'as' => 'delete',
-                'uses' => 'ClubAdmin\Staff\BeaconController@destroy'
+                'uses' => 'ClubAdmin\Beacon\BeaconController@destroy'
             ]);
         });
         /**
